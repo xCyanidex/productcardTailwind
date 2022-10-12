@@ -18,38 +18,40 @@
   <body>
     <main class="bg-cream-text min-w-full h-screen absolute inset-0 flex p-4">
       <div
-        class="m-auto rounded-lg bg-white-custom shadow-lg card-screen:min-w-[340px] xl:grid xl:grid-cols-2 xl:max-w-7xl"
+        class="m-auto rounded-lg bg-white-custom shadow-lg sm:max-w-xl card-screen:min-w-[340px] xl:grid xl:grid-cols-2 xl:max-w-2xl"
       >
-        <div class="">
+        <div class="object-contain">
           <img
             class="h-full w-full object-fit object-center rounded-tr-lg rounded-tl-lg xl:hidden"
-            src="starterfiles/product-preview-card-component-main/images/image-product-mobile.jpg"
+            src="imgs/image-product-mobile.jpg"
             alt=""
           />
           <img
-            class="h-full w-full object-fit object-center rounded-bl-lg rounded-tl-lg hidden xl:block"
-            src="starterfiles/product-preview-card-component-main/images/image-product-desktop.jpg"
+            class="h-full w-full object-contain object-center rounded-bl-lg rounded-tl-lg hidden xl:block"
+            src="imgs/image-product-desktop.jpg"
             alt=""
           />
         </div>
-        <div class="p-4 h-full flex items-center">
-          <div class="space-y-5 xl:space-y-14 xl:px-32">
+        <div class="p-4 flex items-center">
+          <div class="space-y-5 xl:space-y-5 xl:px-4">
             <p
-              class="text-[12px] text-dark-grayish-blue font-thin tracking-[0.40rem] font-montserrat md:text-[18px] xl:text-[20px]"
+              class="text-[12px] text-dark-grayish-blue font-thin tracking-[0.40rem] font-montserrat xl:text-[14px]"
             >
               PERFUME
             </p>
             <h1
-              class="font-bold text-very-dark-blue text-3xl font-fraunces leading-8 md:text-5xl xl:text-6xl"
+              class="font-bold text-very-dark-blue text-3xl font-fraunces leading-8 xl:text-4xl"
             >
-              Gabrielle Essence Eau De Parfum
+              Gabrielle Essence Eau
+              <br class="xl:block sm:hidden" />
+              De Parfum
             </h1>
             <p
-              class="text-[14px] text-dark-grayish-blue font-thin font-montserrat leading-6 md:text-[18px] xl:leading-10 xl:text-[24px]"
+              class="text-[14px] text-dark-grayish-blue font-thin font-montserrat leading-6 xl:leading-8 xl:text-[16px]"
             >
               A floral, solar and voluptous
-              <br class="block card-screen:hidden" />
-              <br class="xl:block" />
+
+              <br class="hidden xl:block" />
               interpretation composed by
               <br class="hidden xl:block" />
               Olivier
@@ -59,16 +61,16 @@
               for the House of CHANEL.
             </p>
             <h2
-              class="text-dark-cyan text-4xl font-bold font-fraunces xl:text-6xl"
+              class="text-dark-cyan text-4xl font-bold font-fraunces xl:text-4xl"
             >
               $149.99
               <span
-                class="line-through text-[14px] text-dark-grayish-blue font-thin font-montserrat align-middle ml-4 xl:text-[24px]"
+                class="line-through text-[14px] text-dark-grayish-blue font-thin font-montserrat align-middle ml-4 xl:text-[18px]"
                 >$169.99</span
               >
             </h2>
             <button
-              class="px-10 py-4 bg-dark-cyan text-white-custom rounded-lg w-full font-semibold text-center"
+              class="px-8 py-4 bg-dark-cyan text-white-custom rounded-lg w-full font-semibold text-center"
             >
               <img
                 class="inline mr-2"
